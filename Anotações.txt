@@ -1,0 +1,43 @@
+Ferramentas para o Backend:
+	- Fastify --> ajuda nos roteamentos da aplicação
+	- Prisma --> comunicação com o banco de dados ( SQLite )
+
+1 - Iniciando o backend:
+	- npm init -y --> iniciar o node
+	
+	Typescript
+	- npm i typescript -D --> instalar o typescript
+	- npx tsc --init --> setup do typescript ( cria o arquivo tsconfig.json (mudar "target": "es2020" ))
+	- npm i tsc -D (editar em package.json > "scripts": {"dev": "tsx watch src/server.ts"} )
+
+	Fastify
+	- npm i fastify --> instala o fastify
+	- npm i @fastify/cors
+	
+	Prisma
+	- npm i prisma -D --> interface de linha de comando
+	- npm i @prisma/client --> pacote para conectar com o banco de dados
+	- npx prisma init --datasource-provider SQLite
+	- npx prisma migrate dev --> cria uma migration com o nome escolhido
+	- npx prisma studio --> visualizar banco de dados pelo navegador
+	- npx prisma-erd-generator @mermaid-js/mermaid-cli -D 
+	- npx prisma generate --> cria um diagrama do banco de dados
+	- instalar extensao prisma no vscode
+
+	- npm run dev --> inicia a aplicação
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
