@@ -22,9 +22,25 @@ Ferramentas para o Backend:
 	- npx prisma studio --> visualizar banco de dados pelo navegador
 	- npx prisma-erd-generator @mermaid-js/mermaid-cli -D 
 	- npx prisma generate --> cria um diagrama do banco de dados
+	- npx prisma db seed: 
+		--> editar em package.json: adicionar "prisma": {"seed": "tsx prisma/seed.ts"}
+		--> apos criar o arquivo seed rodar este comando
 	- instalar extensao prisma no vscode
 
-	- npm run dev --> inicia a aplicação
+	ZOD:
+	- npm i zod
+
+	Short Unique Id
+	- npm i short-unique-id
+
+	Tailwind
+	- npm install -D tailwindcss postcss autoprefixer 
+	- npx tailwindcss init -p --> iniciar tailwind
+
+	Axios
+	- npm i axios
+
+- npm run dev --> inicia a aplicação
 
 
 
